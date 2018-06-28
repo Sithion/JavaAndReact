@@ -18,7 +18,7 @@ public class Main {
 
     private static HttpServer createHttpServerWith(ResourceConfig rc) {
         HttpServer httpServer = GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI), rc);
-        StaticHttpHandler staticHttpHandler = new StaticHttpHandler("src/main/webapp");
+        StaticHttpHandler staticHttpHandler = new StaticHttpHandler("src/main/webapp/build");
         staticHttpHandler.setFileCacheEnabled(false);
         staticHttpHandler.start();
         httpServer.getServerConfiguration().addHttpHandler(staticHttpHandler);

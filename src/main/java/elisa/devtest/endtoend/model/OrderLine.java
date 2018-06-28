@@ -3,14 +3,12 @@ package elisa.devtest.endtoend.model;
 
 public class OrderLine {
     private long orderLineId;
-    private long productId;
-    private String productName;
+    private Product product;
     private int quantity;
 
-    public OrderLine(long orderLineId, long productId, String productName, int quantity) {
+    public OrderLine(long orderLineId, Product product, int quantity) {
         this.orderLineId = orderLineId;
-        this.productId = productId;
-        this.productName = productName;
+        this.product = product;
         this.quantity = quantity;
     }
 
@@ -18,13 +16,10 @@ public class OrderLine {
         return orderLineId;
     }
 
-    public long getProductId() {
-        return productId;
+    public Product getProduct() {
+        return product;
     }
 
-    public String getProductName() {
-        return productName;
-    }
 
     public int getQuantity() {
         return quantity;

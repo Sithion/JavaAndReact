@@ -5,6 +5,7 @@ elisa/devtest/endtoend/DbBootstrap.class
 elisa/devtest/endtoend/dao/OrderDao.class
 elisa/devtest/endtoend/ProductResource.class
 elisa/devtest/endtoend/RestExceptionMapper.class
+elisa/devtest/endtoend/service/OrderService.class
 elisa/devtest/endtoend/service/PricingService$1.class
 elisa/devtest/endtoend/dao/PricingDao$PriceDtoMapper.class
 elisa/devtest/endtoend/dao/PricingDao.class

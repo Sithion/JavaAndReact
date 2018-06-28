@@ -3,6 +3,7 @@
 /Users/user/Projects/DevTestEndToEnd-Candidate/src/main/java/elisa/devtest/endtoend/model/Price.java
 /Users/user/Projects/DevTestEndToEnd-Candidate/src/main/java/elisa/devtest/endtoend/dao/ProductDao.java
 /Users/user/Projects/DevTestEndToEnd-Candidate/src/main/java/elisa/devtest/endtoend/service/PricingService.java
+/Users/user/Projects/DevTestEndToEnd-Candidate/src/main/java/elisa/devtest/endtoend/service/OrderService.java
 /Users/user/Projects/DevTestEndToEnd-Candidate/src/main/java/elisa/devtest/endtoend/PricingResource.java
 /Users/user/Projects/DevTestEndToEnd-Candidate/src/main/java/elisa/devtest/endtoend/RestExceptionMapper.java
 /Users/user/Projects/DevTestEndToEnd-Candidate/src/main/java/elisa/devtest/endtoend/PreparedJsonStatement.java

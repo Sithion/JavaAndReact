@@ -1,0 +1,31 @@
+.products {
+    flex: 1;
+    display: flex;
+}
+
+.product {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+}
+
+.product-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-price {
+    flex: 0;
+}
+
+.product-name {
+    flex: 1;
+
+}
+
+.product-description {
+    flex: 1;
+
+}
+

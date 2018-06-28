@@ -5,7 +5,7 @@ import ShopCart from './shop-cart';
 
 export default (
   <div className="routes">
-    <Route path="/" exact component={ProductCatalog} />
-    <Route path="/shop-cart" exact component={ShopCart} />
+    <Route path="/" exact strict component={ProductCatalog} />
+    <Route path="/shop-cart" exact strict component={ShopCart} />
   </div>
 );

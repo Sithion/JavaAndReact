@@ -10,7 +10,7 @@ CREATE TABLE customer (
 );
 
 CREATE TABLE orders (
-  order_id number(10) not null,
+  order_id number(10) not null GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
   customer_id number(10) not null,
   CONSTRAINT orders_pk PRIMARY KEY (order_id),
   CONSTRAINT fk_customer
@@ -19,9 +19,9 @@ CREATE TABLE orders (
 );
 
 CREATE TABLE order_line (
-  order_line_id number(10) not null,
+  order_line_id number(10) not null GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
   order_id number(10) not null,
-  product_id number(10) not null,
+  product_id varchar2(10) not null,
   product_name varchar2 (50) not null,
   quantity number(10) not null,
   CONSTRAINT order_line_pk PRIMARY KEY (order_line_id),

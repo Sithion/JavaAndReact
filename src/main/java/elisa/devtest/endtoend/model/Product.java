@@ -11,6 +11,10 @@ public class Product {
         this(null, null, null, null);
     }
 
+    public Product(String id, String name) {
+        this(id, null, name, null);
+    }
+
     public Product(String id, Long priceId, String name, String description) {
         this.id = id;
         this.priceId = priceId;
