@@ -2,6 +2,8 @@
 4
 
 2) Was the timit limit (7,5 hours) ok or too strict?
-For me was too strict, 
+For me was too strict 'cause i don't know much about java
 
 3) Other feedback about the test?
+I used React in front-end, but didn't went to further 'cause i spent most of my time understanding
+java and trying to implement the POST call for new product orders.
